@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+outputs/
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+uploads/
+
+# Python
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# Sensitive data
+oauth_creds.json
+google_accounts.json
+*.key
+*.pem
+
+# Large files
+*.zip
+*.rar
+*.exe
+*.dmg
+
+# Bob specific
+.bob/
+.bobide/
+bob_sessions/tmp/
+antigravity-browser-profile/
+
+# Project specific
+miniconda3/
+OpenVSP*/
+*.dat
+*.DAT
+*.LOG*
+*.blf
+*.regtrans-ms
